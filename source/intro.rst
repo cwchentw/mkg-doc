@@ -39,3 +39,5 @@ In the future, we may add the following features:
 * Objective-C projects based on GNUStep
 * LaTeX projects
 * CMake-based projects besides GNU Make-based ones
+
+``mkg`` is licensed under `the MIT License <https://opensource.org/licenses/MIT>`_.

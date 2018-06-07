@@ -12,6 +12,10 @@ Using mkg
    :caption: Contents:
 
    intro
+   install
+   usage
+   advTutorial
+   license
 
 
 
