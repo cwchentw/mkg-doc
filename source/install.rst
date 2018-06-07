@@ -2,4 +2,15 @@
 Installation
 =============
 
-More on the way.
+``mkg`` is distributed as a single executable; hence, just download and move it
+to a valid system executable path, i.e. whatever path in **PATH** variable.
+
+If doubtful, check the source of ``mkg`` on either `GitHub <https://github.com/cwchentw/mkg>`_
+or `Bitbucket <https://bitbucket.org/cwchentw/mkg>`_. You may compile it from
+its source as well, like this:
+
+.. code-block:: console
+
+   $ env GIT_TERMINAL_PROMPT=1 go get github.com/cwchentw/mkg
+
+You need a recent Go compiler to compile ``mkg`` from its source.
