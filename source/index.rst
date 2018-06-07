@@ -14,7 +14,8 @@ Using mkg
    intro
    install
    usage
-   advTutorial
+   option
+   tutorial
    license
 
 
