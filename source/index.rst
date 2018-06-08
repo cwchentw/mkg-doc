@@ -12,6 +12,10 @@ Windows, MacOS, GNU/Linux, and FreeBSD. The objective of this utility is
 to reduce the routines to write boilerplate Makefile\ *s* and  to create 
 project structures.
 
+You amy find the source of ``mkg`` at
+`GitHub <https://github.com/cwchentw/mkg>`_ or
+`GitLab <https://gitlab.com/cwchen/mkg>`_.
+
 .. toctree::
    :maxdepth: 2
    :caption: Table of Contents:

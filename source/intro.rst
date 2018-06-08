@@ -13,7 +13,7 @@ application and library projects for either C or C++.
 ``mkg`` is hosted on the following sites:
 
 * Main: `mkg on GitHub <https://github.com/cwchentw/mkg>`_
-* Mirror: `mkg on Bitbucket <https://bitbucket.org/cwchentw/mkg/>`_
+* Mirror: `mkg on GitLab <https://gitlab.com/cwchen/mkg>`_
 
 We made a wheel that is
 
