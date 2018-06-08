@@ -2,10 +2,14 @@
 Using Generated Projects
 =========================
 
-Here we illustrate how to use the generated projects created by ``mkg``. 
+Here we illustrate how to use the generated projects created by ``mkg``.
+
 Currently, ``mkg`` supports either flat or nested project structure. The former
 is suitable for simple projects while the latter fits more complex ones. All the
 projects created by ``mkg`` are ready as Git repos.
+
+Implicitly, ``mkg`` users need some knowledge to GNU Make to smoothly use these
+generated projects.
 
 --------------------
 System Requirements
@@ -16,12 +20,13 @@ System Requirements
 
 We assume the default compiler on each platform, namely
 
-* Visual C++ on Windows; besides, optional to MinGW
+* Visual C++ on Windows
 * Clang on Mac
-* GCC on other Unix-like systems like GNU/Linux
+* GCC on other Unix-like systems such as GNU/Linux
 
 For Windows users, you may get a port of GNU Make at `MSYS2 <https://www.msys2.org/>`_
-or `GnuWin32 <http://gnuwin32.sourceforge.net/>`_.
+or `GnuWin32 <http://gnuwin32.sourceforge.net/>`_. Besides, MinGW, a Windows port of GCC,
+is supported in these projects as well.
 
 ----------------------------------------
 Flat Console Application Projects for C
@@ -158,8 +163,8 @@ Let's say that we want to create such a project *mylib*:
 
 You may invoke these commands at the root of the project:
 
-* ``make`` or ``make dynamic`` compiles the project into a dynamic library
-* ``make static`` compiles the project into a static library
+* ``make`` or ``make dynamic`` compiles the dynamic library
+* ``make static`` compiles the static library
 * ``make test`` compiles and tests against the dynamic library
 * ``make testStatic`` compiles and tests against the static library
 * ``make clean`` cleans generated files
@@ -177,8 +182,8 @@ Let's say that we want to create such a project *mylib*:
 
 You may invoke these commands at the root of the project:
 
-* ``make`` or ``make dynamic`` compiles the project into a dynamic library
-* ``make static`` compiles the project into a static library
+* ``make`` or ``make dynamic`` compiles the dynamic library
+* ``make static`` compiles the static library
 * ``make test`` compiles and tests against the dynamic library
 * ``make testStatic`` compiles and tests against the static library
 * ``make clean`` cleans generated files
