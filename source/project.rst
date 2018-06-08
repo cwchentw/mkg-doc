@@ -144,3 +144,41 @@ You may invoke these commands at the root of the project:
 * *tests* for test programs
 
 All these directory destinations are customizable.
+
+----------------------------
+Flat Library Projects for C
+----------------------------
+
+Let's say that we want to create such a project *mylib*:
+
+.. code-block:: console
+
+   $ mkg --library --flat mylib
+   $ cd mylib
+
+You may invoke these commands at the root of the project:
+
+* ``make`` or ``make dynamic`` compiles the project into a dynamic library
+* ``make static`` compiles the project into a static library
+* ``make test`` compiles and tests against the dynamic library
+* ``make testStatic`` compiles and tests against the static library
+* ``make clean`` cleans generated files
+
+------------------------------
+Flat Library Projects for C++
+------------------------------
+
+Let's say that we want to create such a project *mylib*:
+
+.. code-block:: console
+
+   $ mkg --library -cxx --flat mylib
+   $ cd mylib
+
+You may invoke these commands at the root of the project:
+
+* ``make`` or ``make dynamic`` compiles the project into a dynamic library
+* ``make static`` compiles the project into a static library
+* ``make test`` compiles and tests against the dynamic library
+* ``make testStatic`` compiles and tests against the static library
+* ``make clean`` cleans generated files
