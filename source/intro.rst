@@ -2,7 +2,7 @@
 Introduction
 =============
 
-**mkg is still at early stage. We may introduce backward compatibility-breaking changes**
+**mkg is still at early stage. We may introduce compatibility-breaking changes**
 **without any warning.**
 
 ``mkg`` stands for Makefile Generator, a opinioned GNU Make-based project generator.
@@ -18,7 +18,7 @@ application and library projects for either C or C++.
 We made a wheel that is
 
 * **Green**: ``mkg`` is a statically-compiled executable that relies on no external runtime
-* **Portable**: ``mkg`` itself and generated projects are portable across three major desktop platforms
+* **Portable**: ``mkg`` itself and generated projects are portable across major desktop platforms
 * **Simple**: no yet another Makefile generating language but the dead simple Make mini-language
 
 There have been several software projects with similar objective of ``mkg``.

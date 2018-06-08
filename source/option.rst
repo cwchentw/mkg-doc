@@ -26,21 +26,21 @@ Here are the available licenses in our program:
 
 * Recommended
 
-  * Apache License 2.0 (apache2)
-  * GNU General Public License v3.0 (gpl3)
-  * MIT License (mit)
+  * Apache License 2.0 (``apache2``)
+  * GNU General Public License v3.0 (``gpl3``)
+  * MIT License (``mit``)
   
 * Alternative
 
-  * BSD 2-clause "Simplified" license (bsd2)
-  * BSD 3-clause "New" or "Revised" license (bsd3)
-  * Eclipse Public License 2.0 (epl2)
-  * GNU Affero General Public License v3.0 (agpl3)
-  * GNU General Public License v2.0 (gpl2)
-  * GNU Lesser General Public License v2.1 (lgpl2)
-  * GNU Lesser General Public License v3.0 (lgpl3)
-  * Mozilla Public License 2.0 (mpl2)
-  * The Unlicense (unlicense)
+  * BSD 2-clause "Simplified" license (``bsd2``)
+  * BSD 3-clause "New" or "Revised" license (``bsd3``)
+  * Eclipse Public License 2.0 (``epl2``)
+  * GNU Affero General Public License v3.0 (``agpl3``)
+  * GNU General Public License v2.0 (``gpl2``)
+  * GNU Lesser General Public License v2.1 (``lgpl2``)
+  * GNU Lesser General Public License v3.0 (``lgpl3``)
+  * Mozilla Public License 2.0 (``mpl2``)
+  * The Unlicense (``unlicense``)
 
 -------------------
 Behavior Modifiers
@@ -48,7 +48,7 @@ Behavior Modifiers
 
 * ``-c`` or ``-C`` generates a C project (default)
 * ``-cpp`` or ``-cxx`` generates a C++ project
-* ``--console`` generates an console application project (default)
+* ``--console`` generates a console application project (default)
 * ``--library`` generates a library project
 * ``--nested`` generates a nested project (default)
 * ``--flat`` generates a flat project
