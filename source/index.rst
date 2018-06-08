@@ -7,14 +7,20 @@
 Using mkg
 =========
 
+``mkg`` is an opinioned, GNU Make-compatible Makefile-based project generator
+that runs on Windows, MacOS, GNU/Linux, and FreeBSD. The objective of this 
+utility is to reduce the routines to write boilerplate Makefile\ *s* and 
+to create project structures.
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Table of Contents:
 
    intro
    install
    usage
    option
+   project
    tutorial
    license
 

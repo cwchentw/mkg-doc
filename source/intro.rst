@@ -21,7 +21,7 @@ We made a wheel that is
 * **Portable**: ``mkg`` itself and generated projects are portable across three major desktop platforms
 * **Simple**: no yet another Makefile generating language but the dead simple Make mini-language
 
-There have been several software projects with similar objectives of ``mkg``.
+There have been several software projects with similar objective of ``mkg``.
 `Autotools <https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.69/html_node/The-GNU-Build-System.html#The-GNU-Build-System>`_
 is a well-known Makefile-generating tool but only feasible on Unix-like systems.
 `CMake <https://cmake.org/>`_ is famous and cross-platform, but CMake users needs another full
@@ -37,6 +37,7 @@ In the future, we may add the following features:
 
 * Fortran projects based on gFortran
 * Objective-C projects based on GNUStep
+* Vala projects
 * LaTeX projects
 * CMake-based projects besides GNU Make-based ones
 

@@ -3,7 +3,11 @@ Installation
 =============
 
 ``mkg`` is distributed as a single executable; hence, just download and move it
-to a valid system executable path, i.e. whatever path in **PATH** variable.
+to a valid system executable path, i.e. whatever path in **PATH** variable. This
+utility runs where Go (golang) compilers run, namely Windows, MacOS, GNU/Linux,
+and FreeBSD.
+
+*P.S. We didn't test our program on FreeBSD yet.*
 
 If doubtful, check the source of ``mkg`` on either `GitHub <https://github.com/cwchentw/mkg>`_
 or `Bitbucket <https://bitbucket.org/cwchentw/mkg>`_. You may compile it from
