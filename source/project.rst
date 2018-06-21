@@ -17,6 +17,7 @@ System Requirements
 
 * A recent C or C++ compiler
 * GNU Make
+* `Bats (Bash Automated Testing System) <https://github.com/sstephenson/bats>`_ on Unix-like systems
 
 We assume the default compiler on each platform, namely
 
@@ -45,6 +46,12 @@ You may invoke these commands at the root of the project:
 * ``make test`` compiles the main application and run a test against it
 * ``make clean`` cleans generated files such as executable and objects
 
+On Windows, the projects assume MSVC; however, MinGW is supported as well:
+
+* ``make CC=gcc``
+* ``make CC=gcc test``
+* ``make CC=gcc clean`` 
+
 ------------------------------------------
 Nested Console Application Projects for C
 ------------------------------------------
@@ -61,6 +68,12 @@ You may invoke these commands at the root of the project:
 * ``make`` compiles the main application
 * ``make test`` compiles the main application and run a test against it
 * ``make clean`` cleans generated files such as executable and objects
+
+On Windows, the projects assume MSVC; however, MinGW is supported as well:
+
+* ``make CC=gcc``
+* ``make CC=gcc test``
+* ``make CC=gcc clean``
 
 *myapp* owns a nested project structure like this:
 
@@ -106,6 +119,12 @@ You may invoke these commands at the root of the project:
 * ``make test`` compiles the main application and run a test against it
 * ``make clean`` cleans generated files such as executable and objects
 
+On Windows, the projects assume MSVC; however, MinGW is supported as well:
+
+* ``make CXX=g++``
+* ``make CXX=g++ test``
+* ``make CXX=g++ clean``
+
 --------------------------------------------
 Nested Console Application Projects for C++
 --------------------------------------------
@@ -122,6 +141,12 @@ You may invoke these commands at the root of the project:
 * ``make`` compiles the main application
 * ``make test`` compiles the main application and run a test against it
 * ``make clean`` cleans generated files such as executable and objects
+
+On Windows, the projects assume MSVC; however, MinGW is supported as well:
+
+* ``make CXX=g++``
+* ``make CXX=g++ test``
+* ``make CXX=g++ clean``
 
 *myapp* owns a nested project structure like this:
 
