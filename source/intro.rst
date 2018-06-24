@@ -28,8 +28,8 @@ is a well-known Makefile-generating tool but only feasible on Unix-like systems.
 language to utilize this tool. `Bakefile <https://bakefile.org/>`_ is a less famous alternative to
 CMake, sharing similar pros and cons of CMake. There are some community Makefile generators like
 `PyMake <https://github.com/Melinysh/PyMake>`_ and `vfnmake <https://github.com/Vifon/vfnmake>`_ but
-they rely on some external runtimes and provide no support for Windows. Therefore, we made
-our own wheel.
+they rely on some external runtimes and provide no support for Windows-family systems. Therefore,
+we made our own wheel.
 
 ``mkg`` *doesn't intend to compete with Autotools or CMake but works as a simple tool.*
 

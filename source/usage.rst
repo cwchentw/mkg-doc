@@ -5,7 +5,7 @@ Using the Program
 You may invoke ``mkg`` in either interactive or batch mode. In the former mode,
 you will enter interactive prompts to enter project-related information; in the
 latter mode, ``mkg`` will create a project on-th-fly, which is customizable 
-through command-line arguments or configuration files.
+through command-line arguments.
 
 By default, ``mkg`` will create a console application project for C with a
 sensible project structure on the destination path:

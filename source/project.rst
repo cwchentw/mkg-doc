@@ -194,6 +194,71 @@ You may invoke these commands at the root of the project:
 * ``make testStatic`` compiles and tests against the static library
 * ``make clean`` cleans generated files
 
+On Windows, the projects assume MSVC; however, MinGW is supported as well:
+
+* ``make CC=gcc`` or ``make CC=gcc dynamic``
+* ``make CC=gcc static``
+* ``make CC=gcc test``
+* ``make CC=gcc testStatic``
+* ``make CC=gcc clean``
+
+------------------------------
+Nested Library Projects for C
+------------------------------
+
+Let's say that we want to create such a project *mylib*:
+
+.. code-block:: console
+
+   $ mkg --library mylib
+   $ cd mylib
+
+You may invoke these commands at the root of the project:
+
+* ``make`` or ``make dynamic`` compiles the dynamic library
+* ``make static`` compiles the static library
+* ``make test`` compiles and tests against the dynamic library
+* ``make testStatic`` compiles and tests against the static library
+* ``make clean`` cleans generated files
+
+On Windows, the projects assume MSVC; however, MinGW is supported as well:
+
+* ``make CC=gcc`` or ``make CC=gcc dynamic``
+* ``make CC=gcc static``
+* ``make CC=gcc test``
+* ``make CC=gcc testStatic``
+* ``make CC=gcc clean``
+
+*mylib* owns a nested project structure like this:
+
+.. code-block:: console
+
+   $ tree
+   .
+   ├── dist
+   ├── examples
+   ├── include
+   │   └── mylib.h
+   ├── Makefile
+   ├── README.md
+   ├── src
+   │   ├── Makefile
+   │   ├── Makefile.win
+   │   ├── mylib.c
+   │   └── mylib.def
+   └── tests
+       ├── Makefile
+       ├── Makefile.win
+       └── mylib_test.c
+
+* *dist* for generated executable
+* *examples* for example code
+* *include* for headers
+* *src* for application source code
+* *tests* for test programs
+
+All these directory destinations are customizable.
+
 ------------------------------
 Flat Library Projects for C++
 ------------------------------
@@ -212,3 +277,68 @@ You may invoke these commands at the root of the project:
 * ``make test`` compiles and tests against the dynamic library
 * ``make testStatic`` compiles and tests against the static library
 * ``make clean`` cleans generated files
+
+On Windows, the projects assume MSVC; however, MinGW is supported as well:
+
+* ``make CXX=g++`` or ``make CC=g++ dynamic``
+* ``make CXX=g++ static``
+* ``make CXX=g++ test``
+* ``make CXX=g++ testStatic``
+* ``make CXX=g++ clean``
+
+--------------------------------
+Nested Library Projects for C++
+--------------------------------
+
+Let's say that we want to create such a project *mylib*:
+
+.. code-block:: console
+
+   $ mkg --library -cxx mylib
+   $ cd mylib
+
+You may invoke these commands at the root of the project:
+
+* ``make`` or ``make dynamic`` compiles the dynamic library
+* ``make static`` compiles the static library
+* ``make test`` compiles and tests against the dynamic library
+* ``make testStatic`` compiles and tests against the static library
+* ``make clean`` cleans generated files
+
+On Windows, the projects assume MSVC; however, MinGW is supported as well:
+
+* ``make CXX=g++`` or ``make CC=g++ dynamic``
+* ``make CXX=g++ static``
+* ``make CXX=g++ test``
+* ``make CXX=g++ testStatic``
+* ``make CXX=g++ clean``
+
+*mylib* owns a nested project structure like this:
+
+.. code-block:: console
+
+   $ tree
+   .
+   ├── dist
+   ├── examples
+   ├── include
+   │   └── mylib.hpp
+   ├── Makefile
+   ├── README.md
+   ├── src
+   │   ├── Makefile
+   │   ├── Makefile.win
+   │   ├── mylib.cpp
+   │   └── mylib.def
+   └── tests
+       ├── Makefile
+       ├── Makefile.win
+       └── mylib_test.cpp
+
+* *dist* for generated executable
+* *examples* for example code
+* *include* for headers
+* *src* for application source code
+* *tests* for test programs
+
+All these directory destinations are customizable.
