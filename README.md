@@ -4,4 +4,4 @@ The documentation for [mkg](https://github.com/cwchentw/mkg).
 
 ## Copyright
 
-2018, Michael Chen, licensed under CC BY-SA.
+2018, Michelle Chen, licensed under CC BY-SA.

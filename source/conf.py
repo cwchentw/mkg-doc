@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'mkg'
-copyright = '2018, Michael Chen'
-author = 'Michael Chen'
+copyright = '2018, Michelle Chen'
+author = 'Michelle Chen'
 
 # The short X.Y version
 version = '0.1'
@@ -129,7 +129,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'mkg.tex', 'Using mkg',
-     'Michael Chen', 'manual'),
+     'Michelle Chen', 'manual'),
 ]
 
 
